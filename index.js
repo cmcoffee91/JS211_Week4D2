@@ -27,7 +27,7 @@ let person = {
 console.log("--3.---------------------------------------");
 //3 Use a for...in loop and if statement to console.log the value associated with the key birthDate if the birth year is an odd number.
 
-for(var x in person){
+for(let x in person){
     if(x === "birthDate"){
         //get birthdate
         let birthDate = person[x];
